@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+@if (ViewBag.Message != null)
+{
+    if (ViewBag.Message == "Unassign Successfull")
+    {
+        <p style="color: green;margin-top: 30px">@ViewBag.Message</p>
+    }
+    else
+    {
+        <p style="color: red">@ViewBag.Message</p>
+    }
+}
+<div class="text-center">
+    <a href="/UnassignCourses/Unassign" id="click" class="btn btn-info" style="margin-top: 30px;"><h1>Unassign Courses</h1></a>
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#click").click(function () {
+            return confirm("Are you sure to unassign all courses?");
+        });
+    });
+</script>
+

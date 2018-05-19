@@ -1,0 +1,244 @@
+﻿@using UniversityWebApp.Models
+
+@{
+    ViewBag.Title = "View Result";
+    List<Department> departments = ViewBag.Departments;
+}
+
+<div class="container" id="padding">
+    <div class="row ">
+        <div class="col-lg-offset-3 col-lg-6 well" id="boxShadow">
+            <form method="POST" class="form-horizontal" id="SaveStudentResultForm">
+                <fieldset>
+
+                    <legend class="text-center">View Result </legend>
+
+                    <div class="form-group">
+                        <label for="DepartmentId" class="col-sm-3 control-label">Department:</label>
+                        <div class="col-sm-9">
+                            <select id="DepartmentId" name="DepartmentId" class="form-control">
+                                <option value="">Select Department</option>
+                                @foreach (var department in departments)
+                                {
+                                    <option value="@department.Id">@department.Name</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="StudentRegId" class="col-sm-3 control-label">Student Reg. No:</label>
+                        <div class="col-sm-9">
+                            <select id="StudentRegId" name="StudentRegId" class="form-control">
+                                <option value="">Select Reg No</option>
+
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="Name">Name:</label>
+                        <div class="col-sm-9">
+                            <input type="text" id="Name" name="Name" class="form-control" readonly>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="Email">Email:</label>
+                        <div class="col-sm-9">
+                            <input type="email" id="Email" name="Email" class="form-control" readonly>
+                        </div>
+                    </div>
+
+                    @*<div class="form-group">
+                        <div class=" col-sm-offset-3 col-sm-3">
+                            <button type="submit" class="btn btn-success btn-block" name="btn">Make PDF</button>
+                        </div>
+                    </div>*@
+
+                    <div>
+                        <table class="table table-bordered" id="ViewCourseStatisticsTbl">
+                            <thead>
+                                <tr>
+                                    <th>Course Code</th>
+                                    <th>Name</th>
+                                    <th>Grade</th>
+                                </tr>
+                            </thead>
+                            <tbody id="studentTableBody"></tbody>
+                        </table>
+
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+
+@*<div class="col-md-offset-3">
+    <h1>View Student Result</h1>*@
+    
+
+    @*<form method="POST" id="ViewStudentResultForm">
+        <table>
+            <tr>
+                <td>
+                    <label for="DepartmentId">Department</label>
+                </td>
+                <td>
+                    <select id="DepartmentId" name="DepartmentId">
+                        <option value="">--Select--</option>
+                        @foreach (var department in departments)
+                        {
+                            <option value="@department.Id">@department.Name</option>
+                        }
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="StudentRegId">Student Reg. No.</label>
+                </td>
+                <td>
+                    <select id="StudentRegId" name="StudentRegId">
+                        <option value="">--Select Reg No--</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Name">Name</label>
+                </td>
+                <td>
+                    <input type="text" id="Name" name="Name" readonly />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Email">Email</label>
+                </td>
+                <td>
+                    <input type="text" id="Email" name="Email" readonly />
+                </td>
+            </tr>
+            
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Make PDF" />
+                </td>
+            </tr>
+        </table>
+        <table class="table table-bordered table-hover" id="ViewCourseStatisticsTbl">
+
+            <thead>
+                <tr>
+                    <th>Course Code</th>
+                    <th>Name</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody id="studentTableBody"></tbody>
+        </table>
+    </form>
+</div>*@
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script>
+    $(function () {
+        $("#Date").datepicker({ defaultDate: +7 });
+    });
+    $(document).ready(function () {
+        $("#DepartmentId").change(function () {
+            var id = $("#DepartmentId").val();
+            $("#Name").val("");
+            $("#Email").val("");
+            $("#StudentRegId").empty();
+            $("#StudentRegId").append("<option value=''>--Select Reg No--</option>");
+            $.get("/EnrollCourse/GetRegStudentList", { DeptId: id }, function (data) {
+                $.each(data, function (index, row) {
+                    $("#StudentRegId").append("<option value='" + row.Id + "'>" + row.RegNo + "</option>");
+                });
+            });
+            //$("#CourseId").empty();
+            //$("#CourseId").append("<option value=''>--Select Course--</option>");
+            //$.get("/EnrollCourse/GateCourseList", { DeptId: id }, function (data) {
+            //    $.each(data, function (index, row) {
+            //        $("#CourseId").append("<option value='" + row.Id + "'>" + row.Code + "</option>");
+            //    });
+            //});
+
+        });
+    });
+    $(document).ready(function () {
+        $("#StudentRegId").change(function () {
+            var id = $("#StudentRegId").val();
+            $("#Name").val("");
+            $("#Email").val("");
+            $.get("/EnrollCourse/GetStudentDetails", { StudentId: id }, function (data) {
+
+                $.each(data, function (index, row) {
+                    $("#Name").val(row.Name);
+                    $("#Email").val(row.Email);
+                });
+            });
+            
+
+        });
+    });
+    $(document).ready(function () {
+        $("#SaveStudentResultForm").validate({
+            rules: {
+                DepartmentId: "required",
+                StudentRegId: "required"
+            },
+            messages: {
+                DepartmentId: "Select department",
+                StudentRegId: "Select Registration No"
+            }
+        });
+
+    });
+
+
+    $(document).ready(function () {
+        $("#DepartmentId").change(function () {
+            $("#studentTableBody").empty();
+            $("#ViewCourseStatisticsTbl").hide();
+        });
+        $("#ViewCourseStatisticsTbl").hide();
+        $("#head").hide();
+        $("#studentTableBody").empty();
+        $("#StudentRegId").change(function () {
+            var studentId = $("#StudentRegId").val();
+
+            if (studentId != '') {
+                $("#studentTableBody").empty();
+                $("#ViewCourseStatisticsTbl").show();
+                $("#head").show();
+                var json = { id: studentId };
+                $.ajax({
+                    type: "POST",
+                    url: '/ViewResult/GetAllResults',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+                    success: function (data) {
+                        for (var i = 0; i < data.length; i++) {
+                            if (data[i].AssignedTo == '') {
+                                $("#studentTableBody").append
+                                ('<tr><td>' + data[i].CourseCode + '</td><td>' + data[i].CourseName + '</td><td style=\'color:red\'>Not Graded yet</td></tr>');
+                            } else {
+                                $("#studentTableBody").append
+                                ('<tr><td>' + data[i].CourseCode + '</td><td>' + data[i].CourseName + '</td><td>' + data[i].Grade +'</td></tr>');
+                            }
+                        }
+                    }
+                });
+            } else {
+                $("#ViewCourseStatisticsTbl").hide();
+                $("#head").hide();
+            }
+        });
+    });
+</script>

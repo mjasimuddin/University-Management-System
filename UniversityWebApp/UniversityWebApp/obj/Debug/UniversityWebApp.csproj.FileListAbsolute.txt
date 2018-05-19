@@ -1,0 +1,329 @@
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\UniversityWebApp.dll.config
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\UniversityWebApp.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\UniversityWebApp.pdb
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Antlr3.Runtime.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\EntityFramework.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Newtonsoft.Json.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Owin.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\System.Web.Helpers.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\System.Web.Mvc.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\System.Web.Optimization.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\System.Web.Razor.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\WebGrease.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\System.Web.Helpers.xml
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\System.Web.Mvc.xml
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\System.Web.Optimization.xml
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\System.Web.Razor.xml
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.xml
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Newtonsoft.Json.xml
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Antlr3.Runtime.pdb
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\EntityFramework.xml
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.xml
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.xml
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\obj\Debug\UniversityWebApp.csprojResolveAssemblyReference.cache
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\obj\Debug\UniversityWebApp.dll
+C:\Users\Fuad Ragib\Desktop\final project\UniversityWebApp\UniversityWebApp\obj\Debug\UniversityWebApp.pdb
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\UniversityWebApp.dll.config
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\UniversityWebApp.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\UniversityWebApp.pdb
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Antlr3.Runtime.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\EntityFramework.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\EntityFramework.SqlServer.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Newtonsoft.Json.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Owin.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.Helpers.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.Mvc.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.Optimization.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.Razor.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\WebGrease.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.Helpers.xml
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.Mvc.xml
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.Optimization.xml
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.Razor.xml
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.xml
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Newtonsoft.Json.xml
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Antlr3.Runtime.pdb
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\EntityFramework.xml
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\EntityFramework.SqlServer.xml
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.xml
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.xml
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\obj\Debug\UniversityWebApp.csprojResolveAssemblyReference.cache
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\obj\Debug\UniversityWebApp.dll
+C:\Users\n\Desktop\Viator Final Project\UniversityWebApp\UniversityWebApp\obj\Debug\UniversityWebApp.pdb
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\UniversityWebApp.dll.config
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\UniversityWebApp.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\UniversityWebApp.pdb
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Antlr3.Runtime.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\EntityFramework.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\EntityFramework.SqlServer.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Google.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Web.Infrastructure.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Newtonsoft.Json.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Owin.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.Helpers.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.Mvc.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.Optimization.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.Razor.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Deployment.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Razor.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\WebGrease.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.Helpers.xml
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.Mvc.xml
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.Optimization.xml
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.Razor.xml
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.xml
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Deployment.xml
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Razor.xml
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Newtonsoft.Json.xml
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Antlr3.Runtime.pdb
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\EntityFramework.xml
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\EntityFramework.SqlServer.xml
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.xml
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.xml
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Google.xml
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\obj\Debug\UniversityWebApp.csprojResolveAssemblyReference.cache
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\obj\Debug\UniversityWebApp.dll
+H:\Viator Final Project\UniversityWebApp\UniversityWebApp\obj\Debug\UniversityWebApp.pdb
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\UniversityWebApp.dll.config
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\UniversityWebApp.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\UniversityWebApp.pdb
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Antlr3.Runtime.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\EntityFramework.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Newtonsoft.Json.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Owin.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Helpers.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Mvc.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Optimization.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Razor.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\WebGrease.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Helpers.xml
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Mvc.xml
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Optimization.xml
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Razor.xml
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.xml
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Newtonsoft.Json.xml
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Antlr3.Runtime.pdb
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\EntityFramework.xml
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.xml
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.xml
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\obj\Debug\UniversityWebApp.csprojResolveAssemblyReference.cache
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\obj\Debug\UniversityWebApp.dll
+C:\Users\Web App Develop .Net\Desktop\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\obj\Debug\UniversityWebApp.pdb
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\UniversityWebApp.dll.config
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\UniversityWebApp.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\UniversityWebApp.pdb
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Antlr3.Runtime.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\EntityFramework.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\EntityFramework.SqlServer.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Google.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Web.Infrastructure.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Newtonsoft.Json.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Owin.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Helpers.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Mvc.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Optimization.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Razor.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Deployment.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Razor.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\WebGrease.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Helpers.xml
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Mvc.xml
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Optimization.xml
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Razor.xml
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.xml
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Deployment.xml
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Razor.xml
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Newtonsoft.Json.xml
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Antlr3.Runtime.pdb
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\EntityFramework.xml
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\EntityFramework.SqlServer.xml
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.xml
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.xml
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Google.xml
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\obj\Debug\UniversityWebApp.dll
+E:\Educaton\Programming file\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\obj\Debug\UniversityWebApp.pdb
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\UniversityWebApp.dll.config
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\UniversityWebApp.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\UniversityWebApp.pdb
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Antlr3.Runtime.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\EntityFramework.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\EntityFramework.SqlServer.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Google.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Web.Infrastructure.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Newtonsoft.Json.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Owin.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Helpers.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Mvc.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Optimization.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Razor.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Deployment.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Razor.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\WebGrease.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Helpers.xml
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Mvc.xml
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Optimization.xml
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.Razor.xml
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.xml
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Deployment.xml
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\System.Web.WebPages.Razor.xml
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Newtonsoft.Json.xml
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Antlr3.Runtime.pdb
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\EntityFramework.xml
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\EntityFramework.SqlServer.xml
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.xml
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.xml
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Google.xml
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\obj\Debug\UniversityWebApp.csprojResolveAssemblyReference.cache
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\obj\Debug\UniversityWebApp.dll
+E:\Educaton\Programming file\Asp.Net Development\BITM Final Project\Viator Final Project - Copy\UniversityWebApp\UniversityWebApp\obj\Debug\UniversityWebApp.pdb

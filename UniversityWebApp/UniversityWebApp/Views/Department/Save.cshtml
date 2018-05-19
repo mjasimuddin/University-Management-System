@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "Save Department";
+}
+
+@if (ViewBag.Message != null)
+{
+    if (ViewBag.Message == "Department inserted")
+    {
+        <p style="color: green">@ViewBag.Message</p>
+    }
+    else
+    {
+        <p style="color: red">@ViewBag.Message</p>
+    }
+
+}
+<div class="container" id="padding">
+    <div class="row ">
+        <div class="col-lg-offset-3 col-lg-6 well" id="boxShadow">
+            <form method="POST" class="form-horizontal" id="departmentForm">
+                <fieldset>
+                    <legend class="text-center">Add New Department </legend>
+                    <div class="form-group ">
+                        <label class="col-sm-3 control-label" for="Code">Code:</label>
+                        <div class="col-sm-9">
+                            <input type="text" id="Code" name="Code" class="form-control" placeholder="Department Code">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="Name">Name:</label>
+                        <div class="col-sm-9">
+                            <input type="text" id="Name" name="Name" class="form-control" placeholder="Department Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class=" col-sm-offset-3 col-sm-2">
+                            <button type="submit" class="btn btn-success btn-block" name="btn">Save</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+        <script src="~/Scripts/jquery-1.10.2.js"></script>
+        <script src="~/Scripts/jquery.validate.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("#departmentForm").validate({
+                    rules: {
+                        Code: "required",
+                        Name: "required"
+
+                    },
+                    messages: {
+                        Code: "Please provide department code",
+                        Name: "Please provide department name"
+                    }
+                });
+            });
+        </script>

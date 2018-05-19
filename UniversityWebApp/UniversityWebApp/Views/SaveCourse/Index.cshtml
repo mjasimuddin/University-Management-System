@@ -1,0 +1,123 @@
+﻿@using UniversityWebApp.Models
+
+@{
+    ViewBag.Title = "Save Course";
+    List<Department> departments = ViewBag.Departments;
+    List<Semester> semesters = ViewBag.Semesters;
+}
+
+    @if (ViewBag.Message != null)
+    {
+        if (ViewBag.Message == "New course inserted")
+        {
+            <p style="color: green">@ViewBag.Message</p>
+        }
+        else
+        {
+            <p style="color: red">@ViewBag.Message</p>
+        }
+    }
+
+    <div class="container" id="padding">
+    <div class="row ">
+        <div class="col-lg-offset-3 col-lg-6 well" id="boxShadow">
+
+            <form method="POST" class="form-horizontal" id="saveCourseForm">
+                <fieldset>
+
+                    <legend class="text-center">Add New Course </legend>
+
+                    <div class="form-group ">
+                        <label class="col-sm-3 control-label" for="Code">Code:</label>
+                        <div class="col-sm-9">
+                            <input type="text" id="Code" name="Code" class="form-control" placeholder="Course Code">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">Name:</label>
+                        <div class="col-sm-9">
+                            <input type="text" id="Name" name="Name" class="form-control" placeholder="Course Name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="Credit">Credit:</label>
+                        <div class="col-sm-9">
+                            <input type="number" id="Credit" name="Credit" class="form-control" placeholder="Course Credit">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="Description">Description:</label>
+                        <div class="col-sm-9">
+                            <textarea id="Description" name="Description" placeholder="Enter Description Here.." rows="3" class="form-control"></textarea>
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="DepartmentId" class="col-sm-3 control-label">Department:</label>
+                        <div class="col-sm-9">
+                            <select id="DepartmentId" name="DepartmentId" class="form-control">
+                                <option value="">Select Department---</option>
+                                @foreach (var department in departments)
+                                {
+                                    <option value="@department.Id">@department.Name</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Semester" class="col-sm-3 control-label">Semester:</label>
+                        <div class="col-sm-9">
+                            <select id="Semester" name="Semester" class="form-control">
+                                <option value="">Select Semester</option>
+                                @foreach (var semester in semesters)
+                                {
+                                    <option value="@semester.Id">@semester.Name</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class=" col-sm-offset-3 col-sm-2">
+                            <button type="submit" class="btn btn-success btn-block" name="btn">Save</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+
+
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#saveCourseForm").validate({
+            rules: {
+                Code: "required",
+                Name: "required",
+                Credit: "required",
+                Description: "required",
+                DepartmentId: "required",
+                Semester: "required",
+            },
+            messages: {
+                Code: "Please provide course code",
+                Name: "Please provide course name",
+                Credit: "Please provide course credit",
+                Description: "Please provide course description",
+                DepartmentId: "Please select your department",
+                Semester: "Please select your semester"
+            }
+        });
+
+    });
+</script>
+

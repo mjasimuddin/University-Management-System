@@ -1,0 +1,87 @@
+﻿
+@using UniversityWebApp.Models
+@{
+    ViewBag.Title = "View Course Statistics";
+    List<Department> departments = ViewBag.Departments;
+}
+<div class="container" id="padding">
+    <div class="row ">
+        <div class="col-lg-offset-3 col-lg-6 well" id="boxShadow">
+            <form method="POST" class="form-horizontal" id="SaveStudentResultForm">
+                <fieldset>
+
+                    <legend class="text-center">View Course Statics </legend>
+
+                    <div class="form-group">
+                        <label for="DepartmentId" class="col-sm-3 control-label">Department:</label>
+                        <div class="col-sm-9">
+                            <select id="DepartmentId" name="DepartmentId" class="form-control">
+                                <option value="">Select Department</option>
+                                @foreach (var department in departments)
+                                {
+                                    <option value="@department.Id">@department.Name</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <table class="table table-bordered" id="ViewCourseStatisticsTbl">
+                            <thead>
+                                <tr>
+                                    <th>Course Code</th>
+                                    <th>Name/Title</th>
+                                    <th>Semester</th>
+                                    <th>Assigned To</th>
+                                </tr>
+                            </thead>
+                            <tbody id="studentTableBody"></tbody>
+                        </table>
+
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#ViewCourseStatisticsTbl").hide();
+        $("#head").hide();
+        $("#studentTableBody").empty();
+        $("#DepartmentId").change(function () {
+            var studentId = $("#DepartmentId").val();
+
+            if (studentId != '') {
+                $("#studentTableBody").empty();
+                $("#ViewCourseStatisticsTbl").show();
+                $("#head").show();
+                var json = { id: studentId };
+                $.ajax({
+                    type: "POST",
+                    url: '/ViewCourseStatistics/GetAllStatistics',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+                    success: function (data) {
+                        for (var i = 0; i < data.length; i++) {
+                            if (data[i].AssignedTo == '') {
+                                $("#studentTableBody").append
+                                ('<tr><td>' + data[i].CourseCode + '</td><td>' + data[i].CourseName + '</td><td>' + data[i].SemesterName + '</td><td style=\'color:red\'>Not Assigned yet</td></tr>');
+                            } else {
+                                $("#studentTableBody").append
+                                ('<tr><td>' + data[i].CourseCode + '</td><td>' + data[i].CourseName + '</td><td>' + data[i].SemesterName + '</td><td>' + data[i].AssignedTo + '</td></tr>');
+                            }
+                        }
+                    }
+                });
+            } else {
+                $("#ViewCourseStatisticsTbl").hide();
+                $("#head").hide();
+            }
+        });
+    });
+</script>

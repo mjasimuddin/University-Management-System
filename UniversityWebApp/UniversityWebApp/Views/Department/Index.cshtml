@@ -1,0 +1,46 @@
+﻿@model List<UniversityWebApp.Models.Department>
+@{
+    ViewBag.Title = "View All Department";
+}
+
+
+<div class="container" id="padding">
+    <div class="row ">
+        <div class="col-lg-offset-3 col-lg-6 well" id="boxShadow">
+            <form method="POST" class="form-horizontal">
+                <fieldset>
+
+                    <legend class="text-center">View All Departments </legend>
+
+
+                    <div>
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Code</th>
+                                    <th>Name</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var student in Model)
+                                {
+                                    <tr>
+                                        <td>@student.Code</td>
+                                        <td>@student.Name</td>
+
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+

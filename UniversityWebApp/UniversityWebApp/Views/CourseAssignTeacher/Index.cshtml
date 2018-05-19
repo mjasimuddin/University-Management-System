@@ -1,0 +1,199 @@
+﻿@using UniversityWebApp.Models
+
+@{
+    ViewBag.Title = "Course Assign To Teacher";
+    List<Department> departments = ViewBag.Departments;
+}
+
+    @if (ViewBag.Message != null)
+    {
+        if (ViewBag.Message == "New course inserted")
+        {
+            <p style="color: green">@ViewBag.Message</p>
+        }
+        else
+        {
+            <p style="color: red">@ViewBag.Message</p>
+        }
+    }
+
+    <div class="container" id="padding">
+    <div class="row ">
+        <div class="col-lg-offset-3 col-lg-6 well" id="boxShadow">
+            <form method="POST" class="form-horizontal" id="courseAssignTeacher">
+                <fieldset>
+
+                    <legend class="text-center">Course Assign To Teacher </legend>
+
+                    <div class="form-group">
+                        <label for="DepartmentId" class="col-sm-3 control-label">Department:</label>
+                        <div class="col-sm-9">
+                            <select id="DepartmentId" name="DepartmentId" class="form-control">
+                                <option value="">Select Department</option>
+                                @foreach (var department in departments)
+                                {
+                                    <option value="@department.Id">@department.Name</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="TeacherId" class="col-sm-3 control-label">Teacher:</label>
+                        <div class="col-sm-9">
+                            <select id="TeacherId" name="TeacherId" class="form-control">
+                                <option value="">Select Teacher</option>
+
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="Credit">Credit to be taken:</label>
+                        <div class="col-sm-9">
+                            <input type="number" id="Credit" name="Credit" class="form-control" readonly>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="RemainingCredit">Remaining Credit:</label>
+                        <div class="col-sm-9">
+                            <input type="number" id="RemainingCredit" name="RemainingCredit" class="form-control" readonly>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="CourseId" class="col-sm-3 control-label">Course Code:</label>
+                        <div class="col-sm-9">
+                            <select id="CourseId" name="CourseId" class="form-control">
+                                <option value="">Select Course Code</option>
+
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="Name">Name:</label>
+                        <div class="col-sm-9">
+                            <input type="text" id="Name" name="Name" class="form-control" readonly>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="CourseCredit">Credit:</label>
+                        <div class="col-sm-9">
+                            <input type="number" id="CourseCredit" name="CourseCredit" class="form-control" readonly>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class=" col-sm-offset-3 col-sm-2">
+                            <button type="submit" class="btn btn-success btn-block" id="saveBtn">Assign</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script>
+
+    $(document).ready(function () {
+        $("#DepartmentId").change(function () {
+            var id = $("#DepartmentId").val();
+            $("#Name").val("");
+            $("#CourseCredit").val("");
+            $("#Credit").val("");
+            $("#RemainingCredit").val("");
+            $("#TeacherId").empty();
+            $("#TeacherId").append("<option value=''>--Select Teacher--</option>");
+            $.get("/CourseAssignTeacher/GateTeacherList", { DeptId: id }, function (data) {
+                //$("#TeacherId").empty();
+                //$("#TeacherId").append("<option value=''>--Select Teacher--</option>");
+                $.each(data, function (index, row) {
+                   
+                    $("#TeacherId").append("<option value='" + row.Id + "'>" + row.Name + "</option>");
+                });
+            });
+            $("#CourseId").empty();
+            $("#CourseId").append("<option value=''>--Select Course--</option>");
+            $.get("/CourseAssignTeacher/GateCourseList", { DeptId: id }, function (data) {
+                //$("#CourseId").empty();
+                //$("#CourseId").append("<option value=''>--Select Course--</option>");
+                $.each(data, function (index, row) {
+                    $("#CourseId").append("<option value='" + row.Id + "'>" + row.Code + "</option>");
+                });
+            });
+
+        });
+    });
+    $(document).ready(function () {
+        $("#TeacherId").change(function () {
+            var id = $("#TeacherId").val();
+            $("#Credit").val("");
+            $("#RemainingCredit").val("");
+            $.get("/CourseAssignTeacher/GateTeacherdetail", { TeacherId: id }, function (data) {
+
+                $.each(data, function (index, row) {
+                    $("#Credit").val(row.Credit);
+                    $("#RemainingCredit").val(row.RemainingCredit);
+                });
+            });
+
+        });
+    });
+    $(document).ready(function () {
+        $("#CourseId").change(function () {
+            var id = $("#CourseId").val();
+            $("#Name").val("");
+            $("#CourseCredit").val("");
+            $.get("/CourseAssignTeacher/GateCourseDetail", { CourseId: id }, function (data) {
+
+                $.each(data, function (index, row) {
+                    $("#Name").val(row.Name);
+                    $("#CourseCredit").val(row.Credit);
+                });
+            });
+
+        });
+    });
+    $(document).ready(function () {
+        $("#saveBtn").click(function () {
+            var courseCredit = $("#CourseCredit").val();
+            var remCredit = $("#RemainingCredit").val();
+            var result = remCredit - courseCredit;
+            if (result < 0) {
+                return confirm("This assign will exced the course limit. Want to continue?");
+            }
+        });
+    });
+
+
+
+    $(document).ready(function () {
+        $("#courseAssignTeacher").validate({
+            rules: {
+                CourseId: "required",
+                TeacherId: "required",
+                DepartmentId: "required",
+
+            },
+            messages: {
+                CourseId: "Select a course",
+                TeacherId: "Select a teacher",
+                DepartmentId: "Select your department"
+            }
+        });
+
+    });
+</script>
+
+

@@ -1,0 +1,173 @@
+﻿
+@using UniversityWebApp.Models
+
+@{
+    ViewBag.Title = "Allocate Classroom";
+    List<Department> departments = ViewBag.Departments;
+    List<Days> days = ViewBag.Days;
+    List<Rooms> rooms = ViewBag.Rooms;
+    List<StartTime> startTimes = ViewBag.StartTime;
+    List<EndTime> endTimes = ViewBag.EndTime;
+}
+
+ 
+    @if (ViewBag.Message != null)
+    {
+        if (ViewBag.Message == "Allocated")
+        {
+            <p style="color: green">@ViewBag.Message</p>
+        }
+        else
+        {
+            <p style="color: red">@ViewBag.Message</p>
+        }
+    }
+
+    <div class="container" id="padding">
+        <div class="row ">
+            <div class="col-lg-offset-3 col-lg-6 well" id="boxShadow">
+                <form method="POST" class="form-horizontal" id="AllocateClassRoomForm">
+                    <fieldset>
+
+                        <legend class="text-center">Allocate Classroom </legend>
+
+                        <div class="form-group">
+                            <label for="DepartmentId" class="col-sm-3 control-label">Department:</label>
+                            <div class="col-sm-9">
+                                <select id="DepartmentId" name="DepartmentId" class="form-control">
+                                    <option value="">Select Department</option>
+                                    @foreach (var department in departments)
+                                    {
+                                        <option value="@department.Id">@department.Name</option>
+                                    }
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="CourseId" class="col-sm-3 control-label">Course:</label>
+                            <div class="col-sm-9">
+                                <select id="CourseId" name="CourseId" class="form-control">
+                                    <option value="">Select Course</option>
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="RoomId" class="col-sm-3 control-label">Room No:</label>
+                            <div class="col-sm-9">
+                                <select id="RoomId" name="RoomId" class="form-control">
+                                    <option value="">Select Room</option>
+                                    @foreach (var room in rooms)
+                                    {
+                                        <option value="@room.Id">@room.RoomNo</option>
+                                    }
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="DaysId" class="col-sm-3 control-label">Day:</label>
+                            <div class="col-sm-9">
+                                <select id="DaysId" name="DaysId" class="form-control">
+                                    <option value="">Select Day</option>
+                                    @foreach (var day in days)
+                                    {
+                                        <option value="@day.Id">@day.Name</option>
+                                    }
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="StartId" class="col-sm-3 control-label">Time From:</label>
+                            <div class="col-sm-9">
+                                <select id="StartId" name="StartId">
+                                    <option value="">Start Time</option>
+                                    @foreach (var sTime in startTimes)
+                                    {
+                                        <option value="@sTime.Id">@sTime.StartId</option>
+                                    }
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="EndId" class="col-sm-3 control-label">Time To:</label>
+                            <div class="col-sm-9">
+                                <select id="EndId" name="EndId">
+                                    <option value="">End Time</option>
+                                    @foreach (var eTime in endTimes)
+                                    {
+                                        <option value="@eTime.Id">@eTime.EndId</option>
+                                    }
+                                </select>
+                            </div>
+                        </div>
+
+                        @*<div class="form-group">
+                                <label class="col-sm-3 control-label" for="StartId">From:</label>
+                                <div class="col-sm-9">
+                                    <input type="time" name="From" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">To:</label>
+                                <div class="col-sm-9">
+                                    <input type="time" name="to" class="form-control">
+                                </div>
+                            </div>*@
+
+
+                        <div class="form-group">
+                            <div class=" col-sm-offset-3 col-sm-3">
+                                <button type="submit" class="btn btn-success btn-block" id="saveBtn" name="btn">Allocate</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script type="text/javascript" src="http://ericjgagnon.github.io/wickedpicker/wickedpicker/wickedpicker.min.js"></script>
+<script>
+    $('.timepicker').wickedpicker({ clearable: true, title: 'Select Start & End Time' });
+</script>
+<script>
+    
+    $(document).ready(function () {
+        $("#DepartmentId").change(function () {
+            var id = $("#DepartmentId").val();
+            $("#CourseId").empty();
+            $("#CourseId").append("<option value=''>--Select Course--</option>");
+            $.get("/CourseAssignTeacher/GateCourseList", { DeptId: id }, function (data) {
+                //$("#CourseId").empty();
+                //$("#CourseId").append("<option value=''>--Select Course--</option>");
+                $.each(data, function (index, row) {
+                    $("#CourseId").append("<option value='" + row.Id + "'>" + row.Code + "</option>");
+                });
+            });
+        });
+    });
+    $(document).ready(function () {
+        $("#AllocateClassRoomForm").validate({
+            rules: {
+                DepartmentId: "required",
+                CourseId: "required",
+                RoomId: "required",
+                DaysId: "required",
+                StartId: "required",
+                EndId: "required"
+            },
+            messages: {
+                DepartmentId: "Select Department",
+                CourseId: "Select Course",
+                RoomId: "Select Room",
+                DaysId: "Select Day",
+                StartId: "Select Start Time",
+                EndId: "Select End Time"
+            }
+        });
+
+    });
+</script>

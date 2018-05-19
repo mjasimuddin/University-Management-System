@@ -1,0 +1,126 @@
+﻿@using UniversityWebApp.Models
+@{
+    ViewBag.Title = "Student Registration";  
+    List<Department> departments = ViewBag.Departments;
+    DateTime thisDay = DateTime.Today;
+    ViewBag.Date = thisDay.ToString("d");
+}
+@*<div class="col-md-offset-3">
+    <h1>Register Student</h1>*@
+    @if (ViewBag.Message == "Student Registration Successful")
+    {
+        <p style="color: green">@ViewBag.Message</p>
+    }
+    else
+    {
+        <p style="color: red">@ViewBag.Message</p>
+    }
+
+
+<div class="container" id="padding">
+    <div class="row ">
+        <div class="col-lg-offset-3 col-lg-6 well" id="boxShadow">
+            <form method="POST" class="form-horizontal" id="studentRegistrationForm">
+                <fieldset>
+
+                    <legend class="text-center">Register Student </legend>
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="Name">Name:</label>
+                        <div class="col-sm-9">
+                            <input type="text" id="Name" name="Name" class="form-control" placeholder="Student Name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="Email">Email:</label>
+                        <div class="col-sm-9">
+                            <input type="email" id="Email" name="Email" class="form-control" placeholder="Email">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="ContactNo">Contact No:</label>
+                        <div class="col-sm-9">
+                            <input type="number" id="ContactNo" name="ContactNo" class="form-control" placeholder="Contact Number">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="Date">Date:</label>
+                        <div class="col-sm-9">
+                            <input type="text" id="Date" name="Date" class="form-control" value="@ViewBag.Date">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="Address">Address</label>
+                        <div class="col-sm-9">
+                            <textarea id="Address" name="Address" placeholder="Enter Address Here.." rows="3" class="form-control"></textarea>
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="DepartmentId" class="col-sm-3 control-label">Department:</label>
+                        <div class="col-sm-9">
+                            <select id="DepartmentId" name="DepartmentId" class="form-control">
+                                <option value="">Select Department</option>
+                                @foreach (var department in departments)
+                                {
+                                    <option value="@department.Id">@department.Name</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class=" col-sm-offset-3 col-sm-3">
+                            <button type="submit" class="btn btn-success btn-block" name="btn">Register</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script>
+    $(function () {
+        $("#Date").datepicker({ defaultDate: +7 });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $("#studentRegistrationForm").validate({
+            rules: {
+                Name: "required",
+                Address: "required",
+                Email: "required",
+                ContactNo: "required",
+                Date: "required",
+                DepartmentId: "required"
+
+            },
+            messages: {
+                Name: "Please provide your name",
+                Address: "Please provide your address",
+                Email: "Please provide your email",
+                ContactNo: "Please provide your contact no",
+                Date: "Select Date",
+                DepartmentId: "Select your department"
+            }
+        });
+
+    });
+</script>
+

@@ -1,0 +1,215 @@
+﻿@using UniversityWebApp.Models
+
+@{
+    ViewBag.Title = "Save Teacher";
+    List<Department> departments = ViewBag.Departments;
+    List<DesignationTeacher> designations = ViewBag.Designations;
+}
+@*<div class="col-md-offset-3">*@
+  
+    @if (ViewBag.Message != null)
+    {
+        if (ViewBag.Message == "New Teacher inserted")
+        {
+            <p style="color: green">@ViewBag.Message</p>
+        }
+        else
+        {
+            <p style="color: red">@ViewBag.Message</p>
+        }
+    }
+
+     <div class="container" id="padding">
+            <div class="row ">
+                <div class="col-lg-offset-3 col-lg-6 well" id="boxShadow">
+                    <form method="POST" class="form-horizontal" id="saveTeacherForm">
+                        <fieldset>
+
+                            <legend class="text-center">Save Teacher </legend>
+
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label" for="Name">Name:</label>
+                                <div class="col-sm-9">
+                                    <input type="text" id="Name" name="Name" class="form-control" placeholder="Teacher Name">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label" for="Address">Address</label>
+                                <div class="col-sm-9">
+                                    <textarea id="Address" name="Address" placeholder="Enter Address Here.." rows="3" class="form-control"></textarea>
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label" for="Email">Email Address</label>
+                                <div class="col-sm-9">
+                                    <input type="email" id="Email" name="Email" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label" for="ContactNo">Contact No:</label>
+                                <div class="col-sm-9">
+                                    <input type="number" id="ContactNo" name="ContactNo" class="form-control" placeholder="Contact Number">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="DesignationId" class="col-sm-3 control-label">Designation:</label>
+                                <div class="col-sm-9">
+                                    <select id="DesignationId" name="DesignationId" class="form-control">
+                                        <option value="">Select Designation</option>
+                                        @foreach (var designation in designations)
+                                        {
+                                            <option value="@designation.Id">@designation.Name</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="DepartmentId" class="col-sm-3 control-label">Department:</label>
+                                <div class="col-sm-9">
+                                    <select id="DepartmentId" name="DepartmentId" class="form-control">
+                                        <option value="">Select Department</option>
+                                        @foreach (var department in ViewBag.Departments)
+                                        {
+                                            <option value="@department.Id">@department.Name</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label" for="Credit">Credit to be taken:</label>
+                                <div class="col-sm-9">
+                                    <input type="number" id="Credit" name="Credit" class="form-control" placeholder="Credit">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class=" col-sm-offset-3 col-sm-2">
+                                    <button type="submit" class="btn btn-success btn-block" name="btn">Save</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    @*<form method="POST" id="saveTeacherForm">
+        <table>
+            <tr>
+                <td>
+                    <label for="Name">Name</label>
+                </td>
+                <td>
+                    <input type="text" id="Name" name="Name" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Address">Address</label>
+                </td>
+                <td>
+                    <textarea id="Address" name="Address"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Email">Email</label>
+                </td>
+                <td>
+                    <input type="email" id="Email" name="Email" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ContactNo">Contact No</label>
+                </td>
+                <td>
+                    <input type="text" id="ContactNo" name="ContactNo" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="DesignationId">Designation</label>
+                </td>
+                <td>
+                    <select id="DesignationId" name="DesignationId">
+                        <option value="">--Select--</option>
+                        @foreach (var designation in designations)
+                        {
+                            <option value="@designation.Id">@designation.Name</option>
+                        }
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="DepartmentId">Department</label>
+                </td>
+                <td>
+                    <select id="DepartmentId" name="DepartmentId">
+                        <option value="">--Select--</option>
+                        @foreach (var department in departments)
+                        {
+                            <option value="@department.Id">@department.Name</option>
+                        }
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Credit">Credit to be Taken</label>
+                </td>
+                <td>
+                    <input type="text" id="Credit" name="Credit" />
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Save" />
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</div>*@
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#saveTeacherForm").validate({
+            rules: {
+                Name: "required",
+                Address: "required",
+                Email: "required",
+                ContactNo: "required",
+                DesignationId: "required",
+                DepartmentId: "required",
+                Credit: {
+                    required: true,
+                    min: 0
+                }
+            },
+            messages: {
+                Name: "Please provide your name",
+                Address: "Please provide your address",
+                Email: "Please provide your email",
+                ContactNo: "Please provide your contact no",
+                DesignationId: "Select your designation",
+                DepartmentId: "Select your department",
+                Credit: "Please provide non-negative value"
+            }
+        });
+
+    });
+</script>
+
+
+
